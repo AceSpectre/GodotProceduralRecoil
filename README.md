@@ -1,2 +1,2 @@
 # GodotProceduralRecoil
-Godot port of Gilbert's procedural recoil system for unity
+Godot port of Gilbert's procedural recoil system for Unity
