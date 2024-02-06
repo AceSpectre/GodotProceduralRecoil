@@ -13,16 +13,21 @@ In the screenshot above, the `Head` node is rotated by mouse input and `recoil.g
 ## Usage
 
 ### Procdural Recoil Parameters
-Recoil: Rotation vector added to the target rotation whenever `recoilFire()` is called
+`Recoil`: Rotation vector added to the target rotation whenever `recoilFire()` is called
 
-Aim Recoil: Rotation vector added to the target rotation whenever `recoilFire(true)` is called
+`Aim Recoil`: Rotation vector added to the target rotation whenever `recoilFire(true)` is called
 
-Snappiness: Rate at which the current rotation lerps to the target rotation
+`Snappiness`: Rate at which the current rotation lerps to the target rotation
 
-Return Speed: Rate at which the target rotation returns to `(0, 0, 0)`
+`Return Speed`: Rate at which the target rotation returns to `(0, 0, 0)`
 
 ### Functions
 
-```gd
-func process():
-```
+`recoilFire(isAiming : bool = false)`
+  Adds rotation vector to the target rotation, which vector is added is determined by `isAiming`
+
+`setRecoil(newRecoil : Vector3)`
+  Sets the recoil vector to `newRecoil`
+
+`setAimRecoil(newRecoil : Vector3)`
+  Sets the aim recoil vector to `newRecoil`
