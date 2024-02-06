@@ -24,10 +24,13 @@ In the screenshot above, the `Head` node is rotated by mouse input and `recoil.g
 ### Functions
 
 `recoilFire(isAiming : bool = false)`
+  
   Adds rotation vector to the target rotation, which vector is added is determined by `isAiming`
 
 `setRecoil(newRecoil : Vector3)`
+  
   Sets the recoil vector to `newRecoil`
 
 `setAimRecoil(newRecoil : Vector3)`
+  
   Sets the aim recoil vector to `newRecoil`
