@@ -34,3 +34,9 @@ In the screenshot above, the `Head` node is rotated by mouse input and `recoil.g
 `setAimRecoil(newRecoil : Vector3)`
   
 - Sets the aim recoil vector to `newRecoil`
+
+## Current Issues
+
+Extremely small z-axis rotations are applied to the rotation, even when the z-axis value of the recoil vector is set to 0. The fix for this issue is to manually set `global_rotation.z` of the node to 0 every frame.
+
+Make sure to change this if you don't want this rotation to be overridden.
