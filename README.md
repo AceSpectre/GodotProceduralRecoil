@@ -1,7 +1,7 @@
 # GodotProceduralRecoil
 Godot port of Gilbert's procedural recoil system for Unity
 
-Credit to Gilbert for the original system, [here's his YouTube tutorial for it](https://www.youtube.com/watch?v=geieixA4Mqc). The only major difference between the Unity implementation and this one, is that Godot doesn't (as far as I'm aware) have an `slerp` function, so a `lerp` function is used instead. To make this version as smooth as the original, an alternative to Godot's `lerp` would need to be used. 
+Credit to Gilbert for the original system, [here's his YouTube tutorial for it.](https://www.youtube.com/watch?v=geieixA4Mqc) The only major difference between the Unity implementation and this one, is that Godot doesn't (as far as I'm aware) have an `slerp` function, so a `lerp` function is used instead. To make this version as smooth as the original, an alternative to Godot's `lerp` would need to be used. 
 
 ## Installation
 Download `recoil.gd` and import it into your Godot Project.
