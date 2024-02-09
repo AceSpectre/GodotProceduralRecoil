@@ -22,7 +22,7 @@ func _process(delta):
 	
 	# Camera z axis tilt fix, ignored if tilt intentional
 	# I have no idea why it tilts if recoil.z is set to 0
-	if recoil.z == 0 or aimRecoil.z == 0:
+	if recoil.z == 0 and aimRecoil.z == 0:
 		global_rotation.z = 0
 
 func recoilFire(isAiming : bool = false):
